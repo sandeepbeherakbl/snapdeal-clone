@@ -1,0 +1,13 @@
+.products{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.products p{
+    color: black;
+    line-height: 25px;
+    font-size: 28px;
+    text-transform: uppercase;
+}

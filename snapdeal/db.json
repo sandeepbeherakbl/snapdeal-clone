@@ -1,0 +1,150 @@
+{
+    "category": [
+        {
+            "id": "1",
+            "category": "men"
+        },
+        {
+            "id": "2",
+            "category": "women"
+        },
+        {
+            "id": "3",
+            "category": "Electronics"
+        },
+        {
+            "id": "4",
+            "category": "beauty"
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "titel": "Git Hub Tshirt",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/men1.jpg",
+            "price": "₹ 450",
+            "category": "1"
+        },
+        {
+            "id": "2",
+            "titel": "New tshirt",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/men2.jpg",
+            "price": "₹ 300",
+            "category": "1"
+        },
+        {
+            "id": "3",
+            "titel": "Star Tshirt",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/men3.jpg",
+            "price": "₹ 280",
+            "category": "1"
+        },
+        {
+            "id": "4",
+            "titel": "Get It Done Tshirt",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/men4.jpg",
+            "price": "₹ 499",
+            "category": "1"
+        },
+        {
+            "id": "5",
+            "titel": "Tops",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/women1.jpg",
+            "price": "₹ 799",
+            "category": "2"
+        },
+        {
+            "id": "6",
+            "titel": "Tops",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/women2.jpg",
+            "price": "₹ 589",
+            "category": "2"
+        },
+        {
+            "id": "7",
+            "titel": "Hoodie",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/women3.jpg",
+            "price": "₹ 379",
+            "category": "2"
+        },
+        {
+            "id": "8",
+            "titel": "Blue Tops",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/women4.jpg",
+            "price": "₹ 399",
+            "category": "2"
+        },
+        {
+            "id": "9",
+            "titel": "Laptop",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/elec1.jpg",
+            "price": "₹ 68,799",
+            "category": "3"
+        },
+        {
+            "id": "10",
+            "titel": "Laptop",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/elec2.jpg",
+            "price": "₹ 80,999",
+            "category": "3"
+        },
+        {
+            "id": "11",
+            "titel": "One Plus",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/elec3.jpg",
+            "price": "₹ 49,999",
+            "category": "3"
+        },
+        {
+            "id": "12",
+            "titel": "OPPO",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/elec4.jpg",
+            "price": "₹ 25,299",
+            "category": "3"
+        },
+        {
+            "id": "13",
+            "titel": "Beardo beard Wash",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/beauty1.jpg",
+            "price": "₹ 999",
+            "category": "4"
+        },
+        {
+            "id": "14",
+            "titel": "Beardo beard oi;",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/beauty2.jpg",
+            "price": "₹ 299",
+            "category": "4"
+        },
+        {
+            "id": "15",
+            "titel": "Face Scrub",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/beauty3.jpg",
+            "price": "₹ 399",
+            "category": "4"
+        },
+        {
+            "id": "16",
+            "titel": "Perfume",
+            "decs": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            "image": "/prod img/beauty4.jpg",
+            "price": "₹ 490",
+            "category": "4"
+        }
+    ]
+}

@@ -17,7 +17,7 @@ export const Navbar = () => {
                         <img src={logo} alt="" srcset="" />
                     </div>
                     <div className="inputbox">
-                        <input type="text" placeholder="Search.." name="search" />
+                        <input type="text" placeholder="Search products & brands" name="search" />
                         <button type="search">Search</button>
                     </div>
                     <div className="login">
