@@ -1,0 +1,102 @@
+.Signin_Maindiv{
+    z-index: 93;
+    width: 726px;
+    height: 360px;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-position: 0 0;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-color: #edf1f4;
+    position: fixed;
+}
+
+.image{
+    background-image: url(../images/userAuthSpritev3.png);
+    vertical-align: sub;
+    display: inline-block;
+}
+
+.right{
+    width: 320px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 29px;
+    padding-top: 25px;
+    box-shadow: 0 0 12px 6px rgb(0 0 0 / 5%), 0 3px 6px rgb(0 0 0 / 15%);
+    position: fixed;
+    top: 50%;
+    left: calc(50% - -154px);
+    min-height: 405px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%)
+}
+
+.left div p {
+    margin: 0px;
+}
+
+.left div{
+    margin-bottom: 50px;
+}
+
+.left{
+    padding: 50px 400px 0 20px;
+}
+
+.right span{
+    float: right;
+    cursor: pointer;
+}
+
+.right p{
+    font-size: 22px;
+}
+
+.subhead p{
+    font-size: 12px;
+}
+
+.reg_form input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.reg_form button{
+    width: 100%;
+    background-color: #e40046;
+    color: white;
+}
+
+.reg_form button:hover{
+    background-color: #e40046;
+}
+
+.right h5{
+    text-align: center;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+}
+
+.social div{
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 12px 6px rgb(0 0 0 / 5%), 0 3px 6px rgb(0 0 0 / 15%);
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.fb{
+    background-color: #4267b2;
+    color: white;
+}

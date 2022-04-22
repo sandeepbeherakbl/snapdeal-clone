@@ -4,13 +4,16 @@ import "./product.css"
 import axios from "axios";
 import { useEffect } from "react";
 import { setProduct } from "../redux/action/action";
+import Button from '@mui/material/Button';
+import styles from "styled-components";
+
 
 export const Product = () => {
 
     const products = useSelector((state) => state.allreducer.product)
     const Renderlist = products.map((product) => {
-        const {id, titel, image, price, category} = product;
-        return(
+        const { id, titel, image, price, } = product;
+        return (
             <div className="proddiv" key={id}>
                 <div className="image">
                     <img src={image} alt={titel} />
@@ -18,8 +21,15 @@ export const Product = () => {
                 <div className="content">
                     <p>{titel}</p>
                     <p>{price}</p>
-                    <p>{category}</p>
                 </div>
+                <Button variant="contained" disableElevation 
+                    style={{
+                        "backgroundColor": "#e40046",
+                        "color": "white"
+                      }}
+                >
+                    ADD TO CART
+                </Button>
 
             </div>
         )
@@ -29,16 +39,16 @@ export const Product = () => {
 
     const fetchproduct = async () => {
         const response = await axios
-        .get("https://fakestoreapi.com/products")
-        .catch((err) => {
-            console.log(err)
-        });
+            .get("http://localhost:3004/products")
+            .catch((err) => {
+                console.log(err)
+            });
         dispatch(setProduct(response.data));
     }
 
-    useEffect(()=>{
+    useEffect(() => {
         fetchproduct();
-    },[]);
+    }, []);
 
     console.log(products)
     return (

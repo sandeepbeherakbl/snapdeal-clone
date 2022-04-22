@@ -17,6 +17,10 @@
     cursor: pointer;
 }
 
+.subdiv1 p:hover{
+    font-weight: bold;
+}
+
 .subdiv2 img{
     width: 100%;
     height: 100%;
