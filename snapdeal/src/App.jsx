@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import { Navbar } from './components/navbar'
-import { Product } from './components/product'
+import { Navbar } from './components/containers/navbar'
+import { Product } from './components/containers/product'
 
 function App() {
   

@@ -1,5 +1,5 @@
-import banner from "./images/topbanner.jpg";
-import pincode from "./images/pincode.jpg";
+import banner from "../images/topbanner.jpg";
+import pincode from "../images/pincode.jpg";
 import "./category.css"
 
 export const Category = () => {

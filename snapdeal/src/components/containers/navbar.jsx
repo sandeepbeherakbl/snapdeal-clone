@@ -1,5 +1,5 @@
 import "./component.css";
-import logo from "./images/sdlogo.svg"
+import logo from "../images/sdlogo.svg"
 
 export const Navbar = () => {
     return(

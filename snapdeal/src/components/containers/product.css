@@ -11,3 +11,13 @@
     font-size: 28px;
     text-transform: uppercase;
 }
+
+.prod_gallery{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+}
+
+.image img{
+    
+}
