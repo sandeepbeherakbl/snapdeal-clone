@@ -1,8 +1,13 @@
 import "./component.css";
 import logo from "../images/sdlogo.svg"
 import { Category } from "./category";
+import { useState } from "react";
 
 export const Navbar = () => {
+    const [term, setTerm] = useState("")
+    const submitHandler = (e) => {
+        e.preventdefault()
+    }
     return(
         <>
             <div className="headdiv">
@@ -17,8 +22,8 @@ export const Navbar = () => {
                     <div className="logo">
                         <img src={logo} alt="" srcset="" />
                     </div>
-                    <div className="inputbox">
-                        <input type="text" placeholder="Search products & brands" name="search" />
+                    <div className="inputbox" onSubmit={submitHandler}>
+                        <input type="text" placeholder="Search products & brands" name="search" value={term} onChange={(e)=>{e.target.value} } />
                         <button type="search">Search</button>
                     </div>
                     <div className="login">

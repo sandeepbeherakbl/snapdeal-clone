@@ -3,13 +3,15 @@ import pincode from "../images/pincode.jpg";
 import "./category.css"
 
 export const Category = () => {
+
+
     return (
         <>
             <div className="cat_maindiv">
                 <div className="catdiv">
                     <div className="subdiv1">
                         <h4>Top Category</h4>
-                        <p>Men</p>
+                        <p onClick={() => filteritem('1')}>Men</p>
                         <p>Women</p>
                         <p>Elecrtronics</p>
                         <p>Beauty</p>
