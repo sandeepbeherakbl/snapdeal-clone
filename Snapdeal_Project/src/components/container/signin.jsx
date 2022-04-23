@@ -25,7 +25,7 @@ export const Signin = () => {
                 <div></div>
                 <div className="right">
                     <p>Login/Sign Up On Snapdeal<span>
-                        <CloseIcon />
+                       <CloseIcon />
                     </span></p>
 
                     <div className="subhead">

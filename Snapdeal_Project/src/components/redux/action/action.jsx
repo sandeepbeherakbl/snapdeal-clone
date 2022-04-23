@@ -7,11 +7,25 @@ export const setProduct = (product) => {
     }
 }
 
-const selectedProduct = (product) => {
+export const selectedProduct = (product) => {
     return{
         type: actionType.SELECTED_PRODUCT,
         payload: product,
     }
 }
 
-export default selectedProduct;
+export const addCart = (product) => {
+    return{
+        type : "ADDCART",
+        payload : product
+    }
+}
+
+export const delCart = (product) => {
+    return{
+        type : "DELITEM",
+        payload : product
+    }
+}
+
+

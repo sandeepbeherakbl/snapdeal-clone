@@ -13,10 +13,22 @@
     margin-left: 5%;
 }
 
-.head-details p{
+.head-details{
     padding: 4px 0 4px 0;
     font-size: 12px;
     line-height: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-details div{
+    padding: 12px 0 4px 0;
+}
+
+.sub_head_details p{
+   display: inline;
+   margin-left: 30px;
+   cursor: pointer;
 }
 
 .maindiv{
@@ -67,10 +79,14 @@
     grid-template-columns: 50% 50%;
 }
 
-.login p{
-    margin-left: 40px;
-    margin-right: 20px;
-    cursor: pointer;
+.login button{
+    padding: 0px 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-left: 1px solid #c9033e ;
+    
 }
 
 
