@@ -1,0 +1,31 @@
+.grid_container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    margin-left: 10%;
+    gap: 15px;
+    text-align: center;
+}
+
+.maincontainer{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.maincontainer img{
+    width: 150px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 10px 0;
+}
+
+.Content{
+    height: 150px;
+}
+
+.FilterButton{
+    padding: 20px 0;
+}
+
