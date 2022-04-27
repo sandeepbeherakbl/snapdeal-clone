@@ -1,0 +1,76 @@
+.sub{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 15% 65% 19%;
+    gap: 15px;
+}
+
+.cat_list{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.cat_list h6{
+    margin-bottom: 20px;
+}
+.cat_list p{
+    width: 100%;
+    font-size: 16px;
+}
+.cat_list p:hover{
+    color: #e40046;
+}
+
+.baner{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.baner img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.baner .buttons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    margin-bottom: -5px;
+    cursor: pointer;
+}
+
+.baner .buttons p:hover{
+    text-decoration: underline;
+}
+
+.login{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.login img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.login p{
+    text-align: center;
+    margin: 0px;
+    font-size: 10px;
+    
+}
+
+.login Button{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 25px;
+    background-color: #212121;
+
+}
