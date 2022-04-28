@@ -1,6 +1,7 @@
 import React from "react";
 import "./signin.css"
 import Button from '@mui/material/Button';
+import { Link } from "react-router-dom";
 
 export const Signin = () => {
     return (
@@ -26,10 +27,12 @@ export const Signin = () => {
                     <form className="reg" action="">
                         <input type="text" placeholder="Enter Name" />
                         <input type="text" placeholder="Enter Email/Mobile" />
-                        <input type="text" placeholder="Enter password" />
-                        <Button className="submit" variant="contained" >
-                            CONTINUE
-                        </Button>
+                        <input type="text"  placeholder="Enter password" />
+                        <Link to={`/`}>
+                            <Button className="submit" variant="contained" >
+                                CONTINUE
+                            </Button>
+                        </Link>
                     </form>
                     <h6>or Login Using</h6>
                     <div className="social">
