@@ -22,7 +22,7 @@ export const Category = () => {
                             <p>Men</p>
                             <p>Women</p>
                             <p>Electronics</p>
-                            <p>beauty</p>
+                            <p>Beauty</p>
                         </div>
                     </div>
                     <div className="login">
@@ -34,6 +34,9 @@ export const Category = () => {
                         </Button>
                     </div>
                 </div>
+            </div>
+            <div className="trending">
+                <h1>Trending Products</h1>
             </div>
         </>
     )

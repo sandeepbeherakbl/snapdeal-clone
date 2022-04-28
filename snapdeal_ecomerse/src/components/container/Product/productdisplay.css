@@ -1,0 +1,41 @@
+.display{
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 24% 25% 24% 25%;
+    gap: 15px;
+}
+
+.card{
+    padding: 10px;
+    height: 370px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.image img{
+    width: 60%;
+    height: 180px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;}
+
+.content h1{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    height: 60px;
+}
+
+.content h3{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.content button{
+    background-color: #212121;
+}

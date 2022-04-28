@@ -1,4 +1,14 @@
+.mob img{
+    width: 100%;
+    margin-top: 20px 0;
+}
+
 .foo img{
     width: 100%;
     padding: 10px 0 0 0;
+    margin-top: 30px;
+}
+
+.mob{
+    padding: 40px 0 10px 0;
 }

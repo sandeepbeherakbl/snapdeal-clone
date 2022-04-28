@@ -1,0 +1,55 @@
+.main_card{
+    width: 90%;
+    height: 80vh;
+    margin-left: 5%;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.img_card{
+    border: none;
+}
+
+.img_card img{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.details {
+    padding: 10px 15px;
+}
+
+.details h5{
+    font-size: 18px;
+    color: gray;
+}
+
+.details h2{
+    font-size: 20px;
+    color: red;
+}
+
+.details p{
+    font-size: 16px;
+    color: gray;
+}
+
+.bu Button{
+    margin-right: 20px;
+    padding: 10px 35px;
+}
+
+.bu{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.bu .add{
+    background-color: #212121;
+}
+
+.bu .buy{
+    background-color: #da0036;
+}
