@@ -5,7 +5,12 @@ import ProductPage from "./components/container/Product/productdisplay"
 import {Routes, Route} from "react-router-dom";
 import ProductDetails from "./components/container/Product/productdetails";
 import { Signin } from "./components/container/signin";
-import { Cart } from "./components/container/cart";
+import Cart  from "./components/container/cart";
+import MenCLothing from "./components/container/categorypage/catpagemen";
+import WomenCLothing from "./components/container/categorypage/catpagewomen";
+import Electronics from "./components/container/categorypage/catpageelec";
+import Beauty from "./components/container/categorypage/catpagejwel";
+
 
 
 function App() {
@@ -18,6 +23,10 @@ function App() {
       <Route path="/product/:productId" element={<ProductDetails/>}/>
       <Route path="/signin" element={<Signin/>}/>
       <Route path="/cart" element={<Cart/>}/>
+      <Route path="/mens" element={<MenCLothing/>}/>
+      <Route path="/women" element={<WomenCLothing/>}/>
+      <Route path="/elec" element={<Electronics/>}/>
+      <Route path="/jwel" element={<Beauty/>}/>
       </Routes>
     </div>
   )

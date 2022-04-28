@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../images/sdLogo.svg"
 import banner from "../images/topbanner.jpg"
 import { Link } from "react-router-dom";
 import './navbar.css'
+import { useSelector } from "react-redux";
 
 export const Navbar = () => {
+    const [input, setInput] = useState(" ");
+
+    const state = useSelector((state) => state.addItems)
     return(
         <>
             <div className="dark">
@@ -21,13 +25,15 @@ export const Navbar = () => {
                 </div>
                 <div className="mid">
                     <form action="">
-                        <input type="text" placeholder="Search Product & Brands" />
+                        <input type="text" placeholder="Search Product & Brands" onChange={(e) => {
+                                setInput(e.target.value);
+                            }}/>
                         <button>Search</button>
                     </form>
                 </div>
                 <div className="button">
                     <Link to={`/cart`}>
-                    <button>cart</button>
+                    <button>cart({state.length})</button>
                     </Link>
                     <Link to={`/signin`}>
                     <button>Sign In</button>

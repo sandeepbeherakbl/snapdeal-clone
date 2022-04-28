@@ -1,12 +1,17 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { selectedProduct, removeSelectedProduct, } from "../../redux/action/action";
 import "./productdetails.css"
 import Button from '@mui/material/Button';
+import { addItem, delItem } from "../../redux/action/action";
+import Alert from '@mui/material/Alert';
+import Stack from '@mui/material/Stack';
+import { Alarm } from "@mui/icons-material";
 
 const ProductDetails = () => {
+    const [cartBtn, setCartBtn] = useState("Add to Cart")
     const { productId } = useParams();
     let product = useSelector((state) => state.product);
     const { image, title, price, category, description,rating, rate, count } = product;
@@ -26,6 +31,18 @@ const ProductDetails = () => {
             dispatch(removeSelectedProduct());
         };
     }, [productId]);
+
+
+    const handleCart = (product) =>{
+        if(cartBtn === "Add to Cart"){
+            dispatch(addItem(product))
+            setCartBtn("Remove From Cart");
+        }else{
+            dispatch(delItem(product))
+            setCartBtn("Add to Cart")
+        }
+    }
+
     return (
         <>
             <div className="main_card">
@@ -39,11 +56,11 @@ const ProductDetails = () => {
                     <h2>Rs: {price}</h2>
                     <p>{description}</p>
                     <div className="bu">
-                        <Button className="add" variant="contained" disableElevation >
-                            ADD TO CART
+                        <Button className="add" variant="contained" disableElevation onClick={() => handleCart(product)}>
+                            {cartBtn}
                         </Button>
                         <Button className="buy" variant="contained" disableElevation>
-                            BUY NOW
+                            Buy Now
                         </Button>
                     </div>
                 </div>

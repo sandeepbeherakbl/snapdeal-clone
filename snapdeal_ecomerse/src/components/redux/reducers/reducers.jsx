@@ -24,3 +24,4 @@ export const selectedProductsReducer = (state = {}, { type, payload }) => {
       return state;
   }
 };
+

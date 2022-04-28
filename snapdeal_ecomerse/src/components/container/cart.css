@@ -1,0 +1,16 @@
+.cartshow h3{
+    padding: 5px 20px;
+}
+.carthead{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 40px;
+    background-color: rgb(182, 182, 182);
+    height: 40px;
+    color: black;
+    font-size: 22px;
+}
+
+.det{
+    padding: 5px 50px;
+}
