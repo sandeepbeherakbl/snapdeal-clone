@@ -39,6 +39,9 @@ const Cart = () => {
                     <p>Price</p>
                 </div>
             </div>
+            <div className="items">
+                {cartItems}
+            </div>
         </div>
     )
 };

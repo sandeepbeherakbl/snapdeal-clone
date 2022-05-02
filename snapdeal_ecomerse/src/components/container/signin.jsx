@@ -26,8 +26,8 @@ export const Signin = () => {
                     <p>Please provide your Mobile Number or Email to Login/ Sign Up on Snapdeal</p>
                     <form className="reg" action="">
                         <input type="text" placeholder="Enter Name" />
-                        <input type="text" placeholder="Enter Email/Mobile" />
-                        <input type="text"  placeholder="Enter password" />
+                        <input type="email" placeholder="Enter Email/Mobile" />
+                        <input type="password"  placeholder="Enter password" />
                         <Link to={`/`}>
                             <Button className="submit" variant="contained" >
                                 CONTINUE

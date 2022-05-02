@@ -72,3 +72,17 @@
     padding: 10px 30px;
     font-size: 16px;
 }
+
+#filter-demo{
+    
+}
+
+
+@media only screen and (min-width: 600px) {
+    .dark{
+        width: 100%;
+    }
+    .light{
+        width: 100%;
+    }
+}
